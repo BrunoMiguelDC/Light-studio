@@ -1,0 +1,25 @@
+body, html {
+    height: 100%;
+}
+body {
+    /*display: flex;*/
+    margin: 0px;
+    overflow: hidden; /*  Disable scrollbars */
+    background-color: black;
+}
+
+.container {
+    position: static;
+    display: flex;
+}
+
+#errorOverlay {
+    position:absolute;
+    justify-content: center;
+    top: 10%;
+    left: 36%;
+}
+
+#secretButtonOverlay {
+    position:fixed;
+}
