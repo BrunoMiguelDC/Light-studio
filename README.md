@@ -1,0 +1,2 @@
+# Light Studio
+The project consists in developing an application that allows objects to be visualized under the effect of at least 1 light source, using a camera with a perspective projection. The lighting of the objects was implemented using Phong's lighting model, evaluated in the camera's reference frame. The lighting was calculated at the level of each fragment. The project is done on behalf of the Computer Graphics and Interfaces course.
