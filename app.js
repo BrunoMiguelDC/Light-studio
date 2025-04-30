@@ -1,15 +1,15 @@
-import { buildProgramFromSources, loadShadersFromURLS, setupWebGL } from "../../libs/utils.js";
-import { ortho, lookAt, flatten, perspective, scale,mult, inverse,normalMatrix, vec2, vec3, vec4, rotate, subtract, length, equal } from "../../libs/MV.js";
-import {modelView, loadMatrix,multRotationX, multRotationY, multRotationZ, multScale, multTranslation, popMatrix, pushMatrix} from "../../libs/stack.js";
+import { buildProgramFromSources, loadShadersFromURLS, setupWebGL } from "./libs/utils.js";
+import { ortho, lookAt, flatten, perspective, scale,mult, inverse,normalMatrix, vec2, vec3, vec4, rotate, subtract, length, equal } from "./libs/MV.js";
+import {modelView, loadMatrix,multRotationX, multRotationY, multRotationZ, multScale, multTranslation, popMatrix, pushMatrix} from "./libs/stack.js";
 
-import * as DAT from '../../libs/dat.gui.module.js';
+import * as DAT from './libs/dat.gui.module.js';
 
 
-import * as CUBE from '../../libs/cube.js';
-import * as CYLINDER from '../../libs/cylinder.js';
-import * as PYRAMID from '../../libs/pyramid.js';
-import * as SPHERE from '../../libs/sphere.js';
-import * as TORUS from '../../libs/torus.js';
+import * as CUBE from './libs/cube.js';
+import * as CYLINDER from './libs/cylinder.js';
+import * as PYRAMID from './libs/pyramid.js';
+import * as SPHERE from './libs/sphere.js';
+import * as TORUS from './libs/torus.js';
 
 const SPHERE_ID = 0;
 const CUBE_ID = 1;
